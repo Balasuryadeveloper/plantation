@@ -80,7 +80,7 @@ while the background image is loading */
 
 
 <?php 
-$con = new mysqli("localhost","root","","vnr");
+$con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
 
 if(isset($_POST['login']))
 {

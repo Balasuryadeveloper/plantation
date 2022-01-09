@@ -1,6 +1,6 @@
 <?php 
 // session_start();
-//$con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
+// $con=new mysqli("localhost","id18233341_root","t1$ROHySi^^<a7|G","id18233341_vnr");
 // $sql="SELECT * FROM admin";
 // $res=mysqli_query($con,$sql);
 // $row=mysqli_fetch_assoc($res);
@@ -98,7 +98,7 @@
                
                
             <?php 
-               $con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
+                $con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
                 $treename=$_GET['treename'];
                 $sql="SELECT DISTINCT * FROM planted WHERE treename='$treename'";
                 $result=mysqli_query($con,$sql);

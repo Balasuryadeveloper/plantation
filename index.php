@@ -60,7 +60,7 @@ while the background image is loading */
     <div class="row g-3 mt-5">
         <div class="col-md-5 col-sm-5"></div>
             <?php 
-               $con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
+                $con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
                 
                 $sql="SELECT sum(count) as totalcount FROM planted";
                 $result=mysqli_query($con,$sql);

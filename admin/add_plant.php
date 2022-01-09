@@ -1,6 +1,6 @@
 <?php 
 // session_start();
-//$con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
+// $con=new mysqli("localhost","id18233341_root","t1$ROHySi^^<a7|G","id18233341_vnr");
 // $sql="SELECT * FROM admin";
 // $res=mysqli_query($con,$sql);
 // $row=mysqli_fetch_assoc($res);
@@ -97,7 +97,7 @@
             <div class="container mt-5">
             <form method='post' action='add_plant.php' class="row g-3 shadow-lg">
             <?php 
-                   $con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
+                    $con=new mysqli("localhost","id18233341_root","t1$ROHySi^^<a7|G","id18233341_vnr");
             
                     $sql="SELECT DISTINCT treename FROM tree_details";
                     echo "<div class='col-md-12 col-sm-12 mb-2'>
@@ -153,7 +153,7 @@
 
 
 <?php 
-$con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
+ $con=new mysqli("localhost","id18233341_root","t1$ROHySi^^<a7|G","id18233341_vnr");
  if(isset($_POST['submit'])){
 
   $treename=$_POST['treename'];
