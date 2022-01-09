@@ -1,6 +1,6 @@
 <?php 
 // session_start();
-// $con=new mysqli("localhost","root","","vnr");
+//$con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
 // $sql="SELECT * FROM admin";
 // $res=mysqli_query($con,$sql);
 // $row=mysqli_fetch_assoc($res);
@@ -96,7 +96,7 @@
             <div class="container mt-4">
                 <div class="row g-3">
             <?php 
-                $con=new mysqli("localhost","root","","vnr");
+               $con=new mysqli('localhost','id18233341_root','t1$ROHySi^^<a7|G','id18233341_vnr');
                 
                 $sql="SELECT sum(count) as totalcount FROM planted";
                 $result=mysqli_query($con,$sql);
